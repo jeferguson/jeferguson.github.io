@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <title>Hello i&#39;m Josh</title>
+    <description>Hi, my name is josh and im currently building my website and learning jekyll. cheers!</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Jul 2014 22:40:09 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Jul 2014 22:40:09 -0700</lastBuildDate>
+    <pubDate>Wed, 09 Jul 2014 16:55:05 -0700</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2014 16:55:05 -0700</lastBuildDate>
     <generator>Jekyll v2.1.0</generator>
+    
+      <item>
+        <title>Hello I&#39;m Josh!</title>
+        <description>&lt;p&gt;hello my name is josh! I just created this website, and im trying some stuff out.  here a link to my &lt;a href=&quot;https://www.facebook.com/joshf3rguson?ref=tn_tnmn&quot;&gt;facebook&lt;/a&gt;  and feel free to follow me on &lt;a href=&quot;https://twitter.com/JoshuaFerguso10&quot;&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 09 Jul 2014 09:48:00 -0700</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2014/07/09/hello-im-josh/</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2014/07/09/hello-im-josh/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
