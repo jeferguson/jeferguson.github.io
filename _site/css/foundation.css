@@ -5469,6 +5469,7 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+<<<<<<< HEAD
 
 
 
@@ -5496,3 +5497,5 @@ th.hide-for-touch {
 
 /* Post styles */
 /* ----------------------------------------------------------*/
+=======
+>>>>>>> 50f7d357787fabf0a98f55e27278c17171f6d1f5
