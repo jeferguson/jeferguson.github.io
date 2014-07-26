@@ -22,51 +22,60 @@
 
 
   
-    <!-- This is the top/nav/title bar, which basically means it is at the top of the webpage -->
-   <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Joshua E Ferguson</a></h1>
-      </li>
-       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    </ul>
-
-    <section class="top-bar-section">
-      <!-- Right Nav Section -->
-      <!-- STill need to change the coloring here-->
-      <ul class="right">
-        <li class = "divider"></li>
-        <li><a href="#"> Blog </a></li>
-        <li class = "divider"></li>
-        <li><a href="#"> Projects </a></li>
-        <li class = "divider"></li>
-        <li><a href="#"> About </a></li>
-        <li class = "divider"></li>
-        <li><p>&nbsp</p>
-        <li><p>&nbsp</p>
-        <li class = "gs" ><a href="#" class="button tiny radius round"> Contact </a></li>
-        <li><p>&nbsp</p>
-        <li><p>&nbsp</p>
-      </ul>
-    </section>
-  </nav>
-  <!-- END of the NAV/top/title bar etc... -->
+<!-- This is the top/nav/title bar, which basically means it is at the top of the webpage -->
+<div class="fixed contain-to-grid sticky">
+	<nav class="top-bar" data-topbar>
+		<ul class="title-area">
+		  <li class="name">
+		    <h1><a href="#">Joshua E Ferguson</a></h1>
+		  </li>
+		   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		</ul>
+	
+	<section class="top-bar-section">
+	  <!-- Right Nav Section -->
+	  <!-- STill need to change the coloring here-->
+	  <ul class="right">
+	    <li class = "divider"></li>
+	    <li><a href="#"> Blog </a></li>
+	    <li class = "divider"></li>
+	    <li><a href="#"> Projects </a></li>
+	    <li class = "divider"></li>
+	    <li><a href="#"> About </a></li>
+	    <li class = "divider"></li>
+	    <li><p>&nbsp</p></li>
+	    <li><p>&nbsp</p></li>
+	    <li class = "gs" ><a href="#" class="button tiny radius round"> Contact </a></li>
+	    <li><p>&nbsp</p></li>
+	    <li><p>&nbsp</p></li>
+	  </ul>
+	</section>
+	</nav>
+</div>
+	<!-- END of the NAV/top/title bar etc... -->
 
 
   <!-- main image section -->
 
-<section id="homepage-hero" style="background-color:white">
+<section>
 
 <div class = "my-img-div">
 	<img src = "img/beach.jpg"><br><br>
+
+
+	<style>
+		.button {
+			color: white;;
+		}
+	</style>
 
 	<center>
 		<div class = "row">
 			<div class="large-12 columns">
     			<ul class="button-group even-3">
-     		 		<li><a href="#" class="Extened button"> Blog </a></li>
-     		 		<li><a href="#" class="Extended button"> Projects </a></li>
-      		 		<li><a href="#" class="Extended button"> About </a></li>
+     		 		<li><a href="#"><button class="Extended button disabled"> Blog </button></a></li>
+     		 		<li><a href="#"><button class="Extended button"> Projects </button></a></li>
+     		 		<li><a href="#"><button class="Extended button"> About </button></a></li>
     			</ul>
     		</div>
     	</div>
