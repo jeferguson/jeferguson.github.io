@@ -1,0 +1,12 @@
+# Site settings
+title: Joshua Ezra Ferguson
+email: josh@thisemailwontwork
+description: "Hi, my name is josh and im currently building my website and learning jekyll. cheers!"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: JoshuaFerguso10
+github_username:  jeferguson
+
+# Build settings
+markdown: kramdown
+permalink: pretty
