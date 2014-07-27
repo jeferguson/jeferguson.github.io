@@ -2,3 +2,39 @@
 position: relative;
 }
 
+/* custom image to go in the header */
+myheader_img {
+	width: "15%";
+	height:auto;
+	
+}
+
+
+
+/* My cusomized footer */
+
+.myfooter {
+  border-top: 1px solid #e8e8e8;
+}
+
+.myfooter_header {
+  color: 008cba;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: -.5px;
+  margin-bottom: 35px;
+}
+
+.myfooter_text {
+	font-size: 12px;
+	font-weight:10px;
+	letter-spacing: -.5px;
+}
+
+
+.myfooter_quote {
+	font_size:8px;
+	font-weight: 50;
+	margin-botton:15px
+	
+}
