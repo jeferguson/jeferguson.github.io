@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "test1!"
-date:   2014-07-10 22:40:01
-line: "This is the first website I've created"
-comments: true
+layout: page
+title:  "Hello World Project!"
+permalink: /hello_world_project/
+comments: false
 ---
 
 Hello, my name is Joshua Ferguson! This is the first website I've created, and I'm trying some stuff out.  Here is a link to my [facebook][Facebook] and feel free to follow me on [twitter][Twitter].

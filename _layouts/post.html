@@ -12,7 +12,10 @@ comments: true
 </div>
 
 <div class = "row">
-	<div class = "large-12 columns">
+
+	<div class ="large-1 column"><p>&nbsp</p></div>
+	
+	<div class = "large-10 columns">
 
 		<div class="post">
 
@@ -25,10 +28,13 @@ comments: true
 		  {{ content }}
 		  </article>
 
-
-		{% include comments.html %}
+		{% if page.comments %}
+			{% include comments.html %}
+		{% endif %}
 
 
 		</div>
 	</div>
+	<div class ="large-1 column"><p>&nbsp</p></div>
+	
 </div>

@@ -1,7 +1,8 @@
 ---
 layout: default_home
+permalink: /blog/
 ---
- 	
+
 
 <!-- might need to rearrange the row placing later-->
 
@@ -23,5 +24,4 @@ layout: default_home
 
     {% endfor %}
 </ul>
-    </div>
- </div>
+  

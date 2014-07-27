@@ -27,8 +27,12 @@ layout: default
 		  </article>
 		
 		</div>
+		{% if page.comments %}
 		
-		{% include comments.html %}
+			{% include comments.html %}
+			
+		{% endif %}
+		
 		
 		
 	</div>
