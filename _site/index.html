@@ -24,11 +24,21 @@
 
   
 <!-- This is the top/nav/title bar, which basically means it is at the top of the webpage -->
+<!-- I will need to make a separate nav bar for mobile too later -->
 <div class="fixed contain-to-grid sticky">
 	<nav class="top-bar" data-topbar>
+		
+		<ul class="left">
+			  <div class="myheader_img">
+			  	<a href="/ice_climbing">
+			  		<img height:auto; width:auto; max-width:25px; src="/img/ice_climb1.jpg"</img>
+			  	</a>
+			  </div>
+		</ul>
+		
 		<ul class="title-area">
 		  <li class="name">
-		    <h1><a href="#">Joshua E Ferguson</a></h1>
+		    <h1><a href="/">Joshua E Ferguson</a></h1>
 		  </li>
 		   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 		</ul>
@@ -42,12 +52,13 @@
 		 
 		 <!-- can move this to either the right or left sides of the navbar-->
 		 <!--
-		  <ul class="right">
+		  <ul class="left">
 			  <div class="myheader_img">
 			  	<a href="#"><img height:auto; width:auto; max-width:25px; src="/img/ice_climb2.jpg"</img></a>
 			  </div>
 		  </ul>
-		 -->
+		  -->
+		 
 		 
 		  <ul class="right">
 		    <li class = "divider"></li>
@@ -55,22 +66,23 @@
 		    <li class = "divider"></li>
 		    <li><a href="#"> Projects </a></li>
 		    <li class = "divider"></li>
-		    <li><a href="#"> About </a></li>
+		    <li><a href="/about"> About </a></li>
 		    <li class = "divider"></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
-		    <li class = "gs" ><a href="#" class="button tiny radius round"> Contact </a></li>
+		    <li class = "gs" ><a href="/ice_climbing" class="button tiny radius round"> Contact </a></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
 		  </ul>
 		</section>
 		
-		
+		<!--
 		<center>
 			<div class="myheader_img">
 				<a href="#"><img height:auto; width:auto; src="/img/ice_climb2.jpg"</img></a>
 			</div>		
 		</center>
+		-->
 		
 	</nav>
 </div>
@@ -134,11 +146,14 @@
     
 
     <div class ="row">
-      <div class="large-12 columns">
+      <div class="large-2 columns"></div>
+      <div class="large-10 columns">
 
           <li>
-            <span class="post-date">Jul 10, 2014</span>
+            <span class="post-date">Jul 10, 2014</span>            
             <a class="post-link" href="/2014/07/10/test2/">test2!</a>
+                          <p>I'm trying some stuff out</p>
+            
           </li>
       </div>
     </div>
@@ -146,11 +161,14 @@
     
 
     <div class ="row">
-      <div class="large-12 columns">
+      <div class="large-2 columns"></div>
+      <div class="large-10 columns">
 
           <li>
-            <span class="post-date">Jul 10, 2014</span>
+            <span class="post-date">Jul 10, 2014</span>            
             <a class="post-link" href="/2014/07/10/test1/">test1!</a>
+                          <p>This is the first website I've created</p>
+            
           </li>
       </div>
     </div>
@@ -158,11 +176,14 @@
     
 
     <div class ="row">
-      <div class="large-12 columns">
+      <div class="large-2 columns"></div>
+      <div class="large-10 columns">
 
           <li>
-            <span class="post-date">Jul 10, 2014</span>
+            <span class="post-date">Jul 10, 2014</span>            
             <a class="post-link" href="/2014/07/10/hello-world/">Hello World!</a>
+                          <p>Hello, my name is Joshua Ferguson</p>
+            
           </li>
       </div>
     </div>

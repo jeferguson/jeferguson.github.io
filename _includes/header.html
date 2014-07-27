@@ -1,10 +1,20 @@
 
 <!-- This is the top/nav/title bar, which basically means it is at the top of the webpage -->
+<!-- I will need to make a separate nav bar for mobile too later -->
 <div class="fixed contain-to-grid sticky">
 	<nav class="top-bar" data-topbar>
+		
+		<ul class="left">
+			  <div class="myheader_img">
+			  	<a href="{{ "/ice_climbing" | prepend: site.baseurl }}">
+			  		<img height:auto; width:auto; max-width:25px; src="{{ "/img/ice_climb1.jpg" | prepend: site.baseurl }}"</img>
+			  	</a>
+			  </div>
+		</ul>
+		
 		<ul class="title-area">
 		  <li class="name">
-		    <h1><a href="#">Joshua E Ferguson</a></h1>
+		    <h1><a href="/">Joshua E Ferguson</a></h1>
 		  </li>
 		   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 		</ul>
@@ -18,12 +28,13 @@
 		 
 		 <!-- can move this to either the right or left sides of the navbar-->
 		 <!--
-		  <ul class="right">
+		  <ul class="left">
 			  <div class="myheader_img">
 			  	<a href="#"><img height:auto; width:auto; max-width:25px; src="{{ "/img/ice_climb2.jpg" | prepend: site.baseurl }}"</img></a>
 			  </div>
 		  </ul>
-		 -->
+		  -->
+		 
 		 
 		  <ul class="right">
 		    <li class = "divider"></li>
@@ -31,22 +42,23 @@
 		    <li class = "divider"></li>
 		    <li><a href="#"> Projects </a></li>
 		    <li class = "divider"></li>
-		    <li><a href="#"> About </a></li>
+		    <li><a href="{{ "/about" | prepend: site.baseurl }}"> About </a></li>
 		    <li class = "divider"></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
-		    <li class = "gs" ><a href="#" class="button tiny radius round"> Contact </a></li>
+		    <li class = "gs" ><a href="{{ "/ice_climbing" | prepend: site.baseurl }}" class="button tiny radius round"> Contact </a></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
 		  </ul>
 		</section>
 		
-		
+		<!--
 		<center>
 			<div class="myheader_img">
 				<a href="#"><img height:auto; width:auto; src="{{ "/img/ice_climb2.jpg" | prepend: site.baseurl }}"</img></a>
 			</div>		
 		</center>
+		-->
 		
 	</nav>
 </div>

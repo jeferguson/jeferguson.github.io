@@ -24,11 +24,21 @@
 
   
 <!-- This is the top/nav/title bar, which basically means it is at the top of the webpage -->
+<!-- I will need to make a separate nav bar for mobile too later -->
 <div class="fixed contain-to-grid sticky">
 	<nav class="top-bar" data-topbar>
+		
+		<ul class="left">
+			  <div class="myheader_img">
+			  	<a href="/ice_climbing">
+			  		<img height:auto; width:auto; max-width:25px; src="/img/ice_climb1.jpg"</img>
+			  	</a>
+			  </div>
+		</ul>
+		
 		<ul class="title-area">
 		  <li class="name">
-		    <h1><a href="#">Joshua E Ferguson</a></h1>
+		    <h1><a href="/">Joshua E Ferguson</a></h1>
 		  </li>
 		   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 		</ul>
@@ -42,12 +52,13 @@
 		 
 		 <!-- can move this to either the right or left sides of the navbar-->
 		 <!--
-		  <ul class="right">
+		  <ul class="left">
 			  <div class="myheader_img">
 			  	<a href="#"><img height:auto; width:auto; max-width:25px; src="/img/ice_climb2.jpg"</img></a>
 			  </div>
 		  </ul>
-		 -->
+		  -->
+		 
 		 
 		  <ul class="right">
 		    <li class = "divider"></li>
@@ -55,22 +66,23 @@
 		    <li class = "divider"></li>
 		    <li><a href="#"> Projects </a></li>
 		    <li class = "divider"></li>
-		    <li><a href="#"> About </a></li>
+		    <li><a href="/about"> About </a></li>
 		    <li class = "divider"></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
-		    <li class = "gs" ><a href="#" class="button tiny radius round"> Contact </a></li>
+		    <li class = "gs" ><a href="/ice_climbing" class="button tiny radius round"> Contact </a></li>
 		    <li><p>&nbsp</p></li>
 		    <li><p>&nbsp</p></li>
 		  </ul>
 		</section>
 		
-		
+		<!--
 		<center>
 			<div class="myheader_img">
 				<a href="#"><img height:auto; width:auto; src="/img/ice_climb2.jpg"</img></a>
 			</div>		
 		</center>
+		-->
 		
 	</nav>
 </div>
@@ -82,21 +94,58 @@
 
   <div class="page-content">
 
-      <div class="post">
+      <div class = "row">
+	<div class = "large-12 columns">
+		<<p>&nbsp</p>
+	
+	</div>
+	
+</div>
 
-  <header class="post-header">
-    <h1>About</h1>
-  </header>
 
-  <article class="post-content">
-  <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+<div class = "row">
+
+	<div class ="large-1 column"><p>&nbsp</p></div>
+	<div class = "large-10 columns">
+
+		<div class="post">
+		
+		  <header class="post-header">
+		    <h1>About</h1>
+		  </header>
+		
+		  <article class="post-content">
+		  <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
 
 <p>You can find the source code for the Jekyll new theme at: <a href="https://github.com/jglovier/jekyll-new">github.com/jglovier/jekyll-new</a></p>
 
 <p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a></p>
 
-  </article>
+		  </article>
+		
+		</div>
+		
+		    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'joshfergusonblog'; // required: replace example with your forum shortname
 
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+		
+		
+	</div>
+	<div class ="large-1 column"><p>&nbsp</p></div>
+	
 </div>
 
   </div>

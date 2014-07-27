@@ -9,11 +9,14 @@ layout: default_home
     {% for post in site.posts %}
 
     <div class ="row">
-      <div class="large-12 columns">
+      <div class="large-2 columns"></div>
+      <div class="large-10 columns">
 
           <li>
-            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>            
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                          <p>{{ post.line }}</p>
+            
           </li>
       </div>
     </div>
